@@ -1,0 +1,220 @@
+{
+  "title": "Генеалогическое древо семьи Козыревых",
+  "members": [
+    {
+      "id": "victor",
+      "full_name": "Козырев Виктор Николаевич",
+      "birth_date": "12.04.2000",
+      "birth_place": "Республика Узбекистан, г. Фергана",
+      "role": "Я (Пробанд)",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna",
+      "spouse_id": "vera_alexeevna",
+      "children_ids": ["lev"]
+    },
+    {
+      "id": "vera_alexeevna",
+      "full_name": "Козырева (Губарева) Вера Алексеевна",
+      "birth_date": "24.03.1999",
+      "role": "Жена",
+      "spouse_id": "victor",
+      "children_ids": ["lev"]
+    },
+    {
+      "id": "lev",
+      "full_name": "Козырев Лев Викторович",
+      "birth_date": "11.04.2024",
+      "role": "Сын",
+      "father_id": "victor",
+      "mother_id": "vera_alexeevna"
+    },
+    {
+      "id": "maria",
+      "full_name": "Ватутина (Козырева) Мария Николаевна",
+      "birth_date": "27.03.1996",
+      "birth_place": "г. Самара",
+      "role": "Старшая сестра",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna"
+    },
+    {
+      "id": "anna",
+      "full_name": "Козырева Анна Николаевна",
+      "birth_date": "27.09.2003",
+      "birth_place": "Кыргызстан, г. Ош",
+      "role": "Сестра",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna"
+    },
+    {
+      "id": "alexander_nikolaevich_jr",
+      "full_name": "Козырев Александр Николаевич",
+      "birth_date": "03.10.2006",
+      "birth_place": "г. Рязань",
+      "role": "Брат",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna"
+    },
+    {
+      "id": "polina",
+      "full_name": "Козырева Полина Николаевна",
+      "birth_date": "10.09.2010",
+      "birth_place": "г. Рязань",
+      "role": "Сестра",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna"
+    },
+    {
+      "id": "pavel",
+      "full_name": "Козырев Павел Николаевич",
+      "birth_date": "27.06.2019 (дату уточнить)",
+      "birth_place": "г. Рязань",
+      "role": "Брат",
+      "father_id": "nikolay_alexandrovich",
+      "mother_id": "yulia_nikolaevna"
+    },
+    {
+      "id": "nikolay_alexandrovich",
+      "full_name": "Козырев Николай Александрович",
+      "birth_date": "23.02.1973",
+      "birth_place": "пгт. Юрья-2 (ЗАТО Первомайский), Кировская область",
+      "role": "Отец",
+      "father_id": "alexander_nikolaevich_sr",
+      "mother_id": "valentina_nikolaevna",
+      "spouse_id": "yulia_nikolaevna",
+      "children_ids": ["maria", "victor", "anna", "alexander_nikolaevich_jr", "polina", "pavel"]
+    },
+    {
+      "id": "yulia_nikolaevna",
+      "full_name": "Козырева (Васильева) Юлия Николаевна",
+      "birth_date": "13.03.1974",
+      "birth_place": "г. Куйбышев (Самара)",
+      "role": "Мать",
+      "spouse_id": "nikolay_alexandrovich",
+      "children_ids": ["maria", "victor", "anna", "alexander_nikolaevich_jr", "polina", "pavel"]
+    },
+    {
+      "id": "alexander_nikolaevich_sr",
+      "full_name": "Козырев Александр Николаевич",
+      "birth_date": "1943 (дату уточнить)",
+      "role": "Дед по отцу",
+      "father_id": "nikolay_ivanovich",
+      "mother_id": "elena_fedorovna",
+      "spouse_id": "valentina_nikolaevna",
+      "children_ids": ["nikolay_alexandrovich"]
+    },
+    {
+      "id": "valentina_nikolaevna",
+      "full_name": "Козырева (Петрова) Валентина Николаевна",
+      "role": "Бабушка по отцу",
+      "father_id": "petrov_nikolay_ivanovich",
+      "mother_id": "petrova_anna_antonovna",
+      "spouse_id": "alexander_nikolaevich_sr",
+      "children_ids": ["nikolay_alexandrovich"],
+      "notes": "Живет в г. Самара."
+    },
+    {
+      "id": "petrov_nikolay_ivanovich",
+      "full_name": "Петров Николай Иванович",
+      "birth_date": "22.09.1924",
+      "death_date": "04.06.2012",
+      "role": "Прадед (отец бабушки Валентины)",
+      "father_id": "petrov_ivan",
+      "mother_id": "petrova_maria_ivanovna",
+      "spouse_id": "petrova_anna_antonovna",
+      "children_ids": ["valentina_nikolaevna", "petrov_gennadiy_nikolaevich"],
+      "notes": "Участник ВОВ (3-й Украинский фронт, путь: Украина, Румыния, Болгария, Австрия, закончил в Вене)."
+    },
+    {
+      "id": "petrova_anna_antonovna",
+      "full_name": "Петрова (Купрышкина) Анна Антоновна",
+      "birth_date": "15.03.1922",
+      "death_date": "07.08.2017",
+      "role": "Прабабушка (мать бабушки Валентины)",
+      "father_id": "kupryshkin_anton",
+      "spouse_id": "petrov_nikolay_ivanovich",
+      "children_ids": ["valentina_nikolaevna", "petrov_gennadiy_nikolaevich"]
+    },
+    {
+      "id": "petrov_gennadiy_nikolaevich",
+      "full_name": "Петров Геннадий Николаевич",
+      "birth_date": "14.02.1952",
+      "role": "Брат бабушки Валентины",
+      "father_id": "petrov_nikolay_ivanovich",
+      "mother_id": "petrova_anna_antonovna",
+      "notes": "Живет в Саратовской обл., Петровский р-н, с. Студеное."
+    },
+    {
+      "id": "kupryshkin_anton",
+      "full_name": "Купрышкин Антон",
+      "death_date": "1930-е",
+      "role": "Прапрадед (отец прабабушки Анны)",
+      "notes": "Был репрессирован на 6 месяцев за кражу мешка зерна, умер от сердца после выхода из тюрьмы."
+    },
+    {
+      "id": "petrov_ivan",
+      "full_name": "Петров Иван",
+      "role": "Прапрадед (отец прадеда Николая)",
+      "spouse_id": "petrova_maria_ivanovna",
+      "children_ids": ["petrov_nikolay_ivanovich"],
+      "notes": "Умер от тифа по дороге из Сибири. Жили в с. Сарочье, Саратовская обл."
+    },
+    {
+      "id": "petrova_maria_ivanovna",
+      "full_name": "Петрова (Смирнова) Мария Ивановна",
+      "birth_date": "1905",
+      "death_date": "1985",
+      "role": "Прапрабабушка (мать прадеда Николая)",
+      "spouse_id": "petrov_ivan",
+      "children_ids": ["petrov_nikolay_ivanovich"],
+      "notes": "В войну работала разнорабочей в совхозе."
+    },
+    {
+      "id": "nikolay_ivanovich",
+      "full_name": "Козырев Николай Иванович",
+      "birth_date": "01.03.1925",
+      "death_date": "26.03.1963",
+      "role": "Прадед",
+      "father_id": "ivan_fedorovich",
+      "mother_id": "pelageya_andreevna",
+      "spouse_id": "elena_fedorovna",
+      "children_ids": ["alexander_nikolaevich_sr"],
+      "notes": "Причина смерти: ударило током. Жил: Ждановский РВК, хутор Макаров, ст. Екатериновка, Волгоградская область. Пошел добровольцем в 1943 г. в первые ВДВ войска."
+    },
+    {
+      "id": "elena_fedorovna",
+      "full_name": "Козырева (Шилова) Елена Федоровна",
+      "birth_date": "25.02.1925",
+      "death_date": "дату уточнить",
+      "role": "Прабабушка",
+      "father_id": "fedor_petrovich",
+      "spouse_id": "nikolay_ivanovich",
+      "children_ids": ["alexander_nikolaevich_sr"],
+      "notes": "Жили с мужем в г. Саратов, д. Новый Сокол. В семье было 9 детей. Выжившие братья и сестры: Нюра, Соня, Саня, Дуня, Тоня, Зина, Егор, Коля (призван в ВОВ, вернулся без руки после бомбежки поезда)."
+    },
+    {
+      "id": "fedor_petrovich",
+      "full_name": "Шилов Фёдор Петрович",
+      "role": "Прапрадед (отец прабабушки Елены)",
+      "children_ids": ["elena_fedorovna"],
+      "notes": "Репрессировали/раскулачили — наработал своим трудом, но всё отобрали в колхоз."
+    },
+    {
+      "id": "ivan_fedorovich",
+      "full_name": "Козырев Иван Федорович",
+      "birth_date": "1903",
+      "death_date": "20.07.1943",
+      "role": "Прапрадед (отец прадеда Николая)",
+      "spouse_id": "pelageya_andreevna",
+      "children_ids": ["nikolay_ivanovich"],
+      "notes": "Погиб: Курская область, село Мирное. Место службы: 184-я стрелковая дивизия."
+    },
+    {
+      "id": "pelageya_andreevna",
+      "full_name": "Козырева Пелагея Андреевна",
+      "role": "Прапрабабушка (мать прадеда Николая)",
+      "spouse_id": "ivan_fedorovich",
+      "children_ids": ["nikolay_ivanovich"]
+    }
+  ]
+}

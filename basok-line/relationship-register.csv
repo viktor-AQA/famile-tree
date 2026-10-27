@@ -1,0 +1,7 @@
+relationship_id,person_a_id,relationship_type,person_b_id,biological_legal_household,claim_ids,supporting_artifact_ids,contradicting_artifact_ids,independence_groups,status,confidence,rationale
+R001,basok_iosif_fedorovich,parent,basok_lilia_iosifovna,biological,C002,A-0001;A-0002,,family-memory,single-source,medium,Семейная память
+R002,basok_praskovya_fedorovna,parent,basok_lilia_iosifovna,biological,C002,A-0001;A-0002,,family-memory,single-source,medium,Семейная память
+R003,basok_iosif_fedorovich,spouse,basok_praskovya_fedorovna,legal,C005,A-0001;A-0002,,family-memory,single-source,medium,Семейная память
+R004,basok_lilia_iosifovna,parent,yulia_nikolaevna,biological,C006,A-0001;A-0002,,family-memory,single-source,high,Семейная память
+R005,vasiliev_nikolay_vasilievich,parent,yulia_nikolaevna,biological,C007,A-0001;A-0002,,family-memory,single-source,high,Семейная память
+R006,basok_lilia_iosifovna,spouse,vasiliev_nikolay_vasilievich,legal,C012,A-0001;A-0002,,family-memory,single-source,medium,Семейная память

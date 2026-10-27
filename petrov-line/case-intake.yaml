@@ -1,0 +1,151 @@
+# Заполняйте из запроса и находок; неизвестные поля не требуют отдельного вопроса пользователю.
+# Оставляйте неизвестное пустым и дополняйте по ходу поиска.
+case_id: "petrov-line"
+created_at: "2026-10-27T14:46:32+00:00"
+research_question: "Установить происхождение и родственные связи линии Петровых: Петров Николай Иванович (1924–2012), Петрова (Купрышкина) Анна Антоновна (1922–2017), их родители Иван Петров, Мария Ивановна (Смирнова) Петрова, Антон Купрышкин; подтвердить документами участие Николая Ивановича в ВОВ и семейные версии о репрессии и переезде из Сибири"
+subject_label: "Петров Николай Иванович"
+requested_output_language: "ru"
+
+scope:
+  target_relationship: "Петров Николай Иванович и Петрова (Купрышкина) Анна Антоновна — родители Валентины Николаевны и Геннадия Николаевича; их отцы Иван Петров и Антон Купрышкин; мать Николая Мария Ивановна Смирнова"
+  time_range: "1905–2017, с выходом на более ранние поколения при наличии источников"
+  geographic_scope:
+    - "Саратовская область, Петровский район, с. Студеное"
+    - "Саратовская область, с. Сарочье (название требует проверки)"
+    - "Саратовская область, г. Саратов"
+    - "Украина, Румыния, Болгария, Австрия, Вена (боевой путь по семейной версии)"
+  allowed_sources:
+    - "открытые онлайн-индексы ЦАМО/Память народа и производные"
+    - "открытые списки репрессированных"
+    - "каталоги и путеводители архивов"
+    - "семейное древо и семейные записи"
+  prohibited_sources:
+    - "платные базы и платные выписки"
+    - "контакты с живыми родственниками без согласия"
+    - "передача персональных данных третьим лицам"
+  paid_sources_allowed: false
+  third_party_upload_allowed: false
+  contact_with_people_or_archives_allowed: false
+
+user_authorization:
+  relation_to_subjects: "пробанд — внук Николая Ивановича и Анны Антоновны"
+  living_person_consent_or_basis: "исследование семейной истории; живые люди упоминаются минимально, без контактов и адресов"
+  notes: "Публичный отчёт должен редактировать данные живых людей."
+
+subjects:
+  - person_id: "petrov_nikolay_ivanovich"
+    label: "Петров Николай Иванович"
+    living_status: "deceased"
+    names_as_provided: ["Петров Николай Иванович"]
+    estimated_birth: "22.09.1924"
+    estimated_death: "04.06.2012"
+    places_as_provided: ["Саратовская область"]
+    known_relatives: ["petrov_ivan", "petrova_maria_ivanovna", "petrova_anna_antonovna", "valentina_nikolaevna", "petrov_gennadiy_nikolaevich"]
+    occupation_or_status: ["участник ВОВ", "3-й Украинский фронт"]
+    confession_or_community_as_recorded: []
+    notes: "Семейная версия: путь Украина — Румыния — Болгария — Австрия, закончил в Вене."
+  - person_id: "petrova_anna_antonovna"
+    label: "Петрова (Купрышкина) Анна Антоновна"
+    living_status: "deceased"
+    names_as_provided: ["Петрова (Купрышкина) Анна Антоновна"]
+    estimated_birth: "15.03.1922"
+    estimated_death: "07.08.2017"
+    places_as_provided: ["Саратовская область"]
+    known_relatives: ["kupryshkin_anton", "petrov_nikolay_ivanovich", "valentina_nikolaevna", "petrov_gennadiy_nikolaevich"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: ""
+  - person_id: "valentina_nikolaevna"
+    label: "Козырева (Петрова) Валентина Николаевна"
+    living_status: "living"
+    names_as_provided: ["Козырева (Петрова) Валентина Николаевна"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: ["г. Самара"]
+    known_relatives: ["petrov_nikolay_ivanovich", "petrova_anna_antonovna", "petrov_gennadiy_nikolaevich"]
+    occupation_or_status: ["на пенсии"]
+    confession_or_community_as_recorded: []
+    notes: "Живая; адрес и контакты не публиковать."
+  - person_id: "petrov_gennadiy_nikolaevich"
+    label: "Петров Геннадий Николаевич"
+    living_status: "living"
+    names_as_provided: ["Петров Геннадий Николаевич"]
+    estimated_birth: "14.02.1952"
+    estimated_death: ""
+    places_as_provided: ["Саратовская обл., Петровский р-н, с. Студеное"]
+    known_relatives: ["petrov_nikolay_ivanovich", "petrova_anna_antonovna", "valentina_nikolaevna"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "Живой; в отчёте минимизировать, адрес не публиковать."
+  - person_id: "petrov_ivan"
+    label: "Петров Иван"
+    living_status: "deceased"
+    names_as_provided: ["Петров Иван"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: ["с. Сарочье, Саратовская обл. (по семейной версии)"]
+    known_relatives: ["petrova_maria_ivanovna", "petrov_nikolay_ivanovich"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "По семейной версии умер от тифа по дороге из Сибири."
+  - person_id: "petrova_maria_ivanovna"
+    label: "Петрова (Смирнова) Мария Ивановна"
+    living_status: "deceased"
+    names_as_provided: ["Петрова (Смирнова) Мария Ивановна"]
+    estimated_birth: "1905"
+    estimated_death: "1985"
+    places_as_provided: ["Саратовская область"]
+    known_relatives: ["petrov_ivan", "petrov_nikolay_ivanovich"]
+    occupation_or_status: ["разнорабочая в совхозе в годы войны"]
+    confession_or_community_as_recorded: []
+    notes: ""
+  - person_id: "kupryshkin_anton"
+    label: "Купрышкин Антон"
+    living_status: "deceased"
+    names_as_provided: ["Купрышкин Антон"]
+    estimated_birth: ""
+    estimated_death: "1930-е"
+    places_as_provided: ["Саратовская область (предположительно)"]
+    known_relatives: ["petrova_anna_antonovna"]
+    occupation_or_status: ["репрессирован по семейной версии"]
+    confession_or_community_as_recorded: []
+    notes: "Семейная версия: 6 месяцев за кражу мешка зерна, умер от сердца после выхода."
+
+prior_family_research:
+  asked: true
+  researchers: []
+  family_pages:
+    - "/Users/name/PycharmProjects/family-tree/family_tree.json"
+  holders_of_materials: []
+  notes: "Семейное древо на 27 персон — основной исходный материал; документы и интервью не предоставлены."
+
+input_materials:
+  - "family_tree.json (27 персон, семейные воспоминания)"
+
+privacy:
+  redact_living_people_in_shared_report: true
+  exclude_current_contacts_and_addresses: true
+  sensitive_topics:
+    - "репрессии"
+    - "тиф и переезд из Сибири"
+    - "война"
+
+known_constraints:
+  - "контакты с архивами и живыми людьми запрещены"
+  - "платные источники запрещены"
+  - "онлайн-поиск ограничен доступными индексами"
+  - "семейное древо не является доказательством; статус family-tree-only"
+
+working_hypotheses:
+  - id: "H1"
+    text: "Даты и места Николая Ивановича и Анны Антоновны из семейного древа верны, но нуждаются в документальном подтверждении."
+  - id: "H2"
+    text: "Боевой путь Николая Ивановича (3-й Украинский фронт, Вена) может подтверждаться наградными документами или военкоматской карточкой; пока открытые индексы не дали точного совпадения."
+  - id: "H3"
+    text: "Запись 1418museum 55468048 (Николай Иванович Петров 1924, Саратовская обл.) не отождествляется с Николаем Ивановичем из-за призыва Ошским РВК Киргизской ССР."
+  - id: "H4"
+    text: "Запись 1418museum 45285119 (Николай Иванович Петров 1924, г. Саратов, мл. лейтенант, 283-я сд) не подтверждает семейную версию о 3-м Украинском фронте; требуется проверка."
+  - id: "H5"
+    text: "Антон Купрышкин в открытом списке не найден; возможны варианты написания фамилии, другой регион или отсутствие оцифровки."
+  - id: "H6"
+    text: "Название с. Сарочье может быть искажено; требуется установить реальный населённый пункт по документам или картам."

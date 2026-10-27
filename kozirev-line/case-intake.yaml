@@ -1,0 +1,180 @@
+# Заполняйте из запроса и находок; неизвестные поля не требуют отдельного вопроса пользователю.
+# Оставляйте неизвестное пустым и дополняйте по ходу поиска.
+case_id: "kozirev-line"
+created_at: "2026-10-27T08:11:21+00:00"
+research_question: "Установить происхождение линии Козыревых и подтвердить документами ключевые события: Козырев Иван Федорович (1903–1943), его сын Козырев Николай Иванович (1925–1963), жена Николая Елена Федоровна (Шилова, 1925) и тесть Фёдор Петрович Шилов; проверить семейные версии о гибели Ивана Федоровича и о репрессии/раскулачивании Шилова"
+subject_label: "Козырев Виктор Николаевич (пробанд)"
+requested_output_language: "ru"
+
+scope:
+  target_relationship: "Козырев Николай Иванович (1925–1963) — сын Козырева Ивана Федоровича (1903–1943); Елена Федоровна Шилова — жена Николая; Фёдор Петрович Шилов — отец Елены"
+  time_range: "1903–1963, с выходом на более ранние поколения при наличии источников"
+  geographic_scope:
+    - "Сталинградская/Волгоградская область, Ждановский район, хутор Макаров, ст. Екатериновка"
+    - "Курская область, Ракитянский район, с. Меловое"
+    - "Саратовская область, г. Саратов, пос. Новый Сокол"
+  allowed_sources:
+    - "открытые онлайн-индексы ЦАМО/Память народа и производные"
+    - "открытые списки репрессированных"
+    - "каталоги и путеводители архивов"
+    - "семейное древо и семейные записи"
+  prohibited_sources:
+    - "платные базы и платные выписки"
+    - "контакты с живыми родственниками без согласия"
+    - "передача персональных данных третьим лицам"
+  paid_sources_allowed: false
+  third_party_upload_allowed: false
+  contact_with_people_or_archives_allowed: false
+
+user_authorization:
+  relation_to_subjects: "пробанд — Козырев Виктор Николаевич"
+  living_person_consent_or_basis: "исследование семейной истории; живые люди упоминаются минимально, без контактов и адресов"
+  notes: "Публичный отчёт должен редактировать данные живых людей."
+
+subjects:
+  - person_id: "victor"
+    label: "Козырев Виктор Николаевич"
+    living_status: "living"
+    names_as_provided: ["Козырев Виктор Николаевич"]
+    estimated_birth: "12.04.2000"
+    estimated_death: ""
+    places_as_provided: ["Республика Узбекистан, г. Фергана"]
+    known_relatives: ["nikolay_alexandrovich", "yulia_nikolaevna"]
+    occupation_or_status: ["пробанд"]
+    confession_or_community_as_recorded: []
+    notes: "Текущие контакты и адрес не собираются."
+  - person_id: "nikolay_alexandrovich"
+    label: "Козырев Николай Александрович"
+    living_status: "living"
+    names_as_provided: ["Козырев Николай Александрович"]
+    estimated_birth: "23.02.1973"
+    estimated_death: ""
+    places_as_provided: ["пгт. Юрья-2 (ЗАТО Первомайский), Кировская область"]
+    known_relatives: ["alexander_nikolaevich_sr", "valentina_nikolaevna", "victor"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "Живой; в отчёте минимизировать."
+  - person_id: "alexander_nikolaevich_sr"
+    label: "Козырев Александр Николаевич"
+    living_status: "unknown"
+    names_as_provided: ["Козырев Александр Николаевич"]
+    estimated_birth: "1943"
+    estimated_death: ""
+    places_as_provided: []
+    known_relatives: ["nikolay_ivanovich", "elena_fedorovna", "valentina_nikolaevna", "nikolay_alexandrovich"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "Год рождения требует уточнения; статус жив/умер не подтверждён."
+  - person_id: "valentina_nikolaevna"
+    label: "Козырева (Петрова) Валентина Николаевна"
+    living_status: "living"
+    names_as_provided: ["Козырева (Петрова) Валентина Николаевна"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: ["г. Самара"]
+    known_relatives: ["petrov_nikolay_ivanovich", "petrova_anna_antonovna", "alexander_nikolaevich_sr", "nikolay_alexandrovich"]
+    occupation_or_status: ["на пенсии"]
+    confession_or_community_as_recorded: []
+    notes: "Живая; адрес и контакты не публиковать."
+  - person_id: "nikolay_ivanovich"
+    label: "Козырев Николай Иванович"
+    living_status: "deceased"
+    names_as_provided: ["Козырев Николай Иванович"]
+    estimated_birth: "01.03.1925"
+    estimated_death: "26.03.1963"
+    places_as_provided: ["Ждановский РВК, хутор Макаров, ст. Екатериновка, Волгоградская область"]
+    known_relatives: ["ivan_fedorovich", "pelageya_andreevna", "elena_fedorovna", "alexander_nikolaevich_sr"]
+    occupation_or_status: ["участник ВОВ", "первые ВДВ"]
+    confession_or_community_as_recorded: []
+    notes: "По семейной версии пошёл добровольцем в 1943 г.; умер от удара током."
+  - person_id: "elena_fedorovna"
+    label: "Козырева (Шилова) Елена Федоровна"
+    living_status: "unknown"
+    names_as_provided: ["Козырева (Шилова) Елена Федоровна"]
+    estimated_birth: "25.02.1925"
+    estimated_death: ""
+    places_as_provided: ["г. Саратов", "пос. Новый Сокол"]
+    known_relatives: ["fedor_petrovich", "nikolay_ivanovich", "alexander_nikolaevich_sr"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "В семье было 9 детей; выжившие сёстры и братья: Нюра, Соня, Саня, Дуня, Тоня, Зина, Егор, Коля."
+  - person_id: "ivan_fedorovich"
+    label: "Козырев Иван Федорович"
+    living_status: "deceased"
+    names_as_provided: ["Козырев Иван Федорович"]
+    estimated_birth: "1903"
+    estimated_death: "23.07.1943"
+    places_as_provided: ["Сталинградская обл., Ждановский р-н", "Курская обл., Ракитянский р-н, с. Меловое"]
+    known_relatives: ["pelageya_andreevna", "nikolay_ivanovich"]
+    occupation_or_status: ["красноармеец, 184-я стрелковая дивизия"]
+    confession_or_community_as_recorded: []
+    notes: "Семейная версия: погиб 20.07.1943, с. Мирное. Документальный индекс: 23.07.1943, с. Меловое."
+  - person_id: "pelageya_andreevna"
+    label: "Козырева Пелагея Андреевна"
+    living_status: "deceased"
+    names_as_provided: ["Козырева Пелагея Андреевна"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: []
+    known_relatives: ["ivan_fedorovich", "nikolay_ivanovich"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: ""
+  - person_id: "fedor_petrovich"
+    label: "Шилов Фёдор Петрович"
+    living_status: "deceased"
+    names_as_provided: ["Шилов Фёдор Петрович"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: ["Саратовская область"]
+    known_relatives: ["elena_fedorovna"]
+    occupation_or_status: ["раскулачен/репрессирован по семейной версии"]
+    confession_or_community_as_recorded: []
+    notes: "Семейная версия: наработал трудом, но всё отобрали в колхоз."
+  - person_id: "yulia_nikolaevna"
+    label: "Козырева Юлия Николаевна"
+    living_status: "living"
+    names_as_provided: ["Козырева Юлия Николаевна"]
+    estimated_birth: ""
+    estimated_death: ""
+    places_as_provided: []
+    known_relatives: ["victor", "nikolay_alexandrovich"]
+    occupation_or_status: []
+    confession_or_community_as_recorded: []
+    notes: "Мать пробанда; живая, данные минимизировать."
+
+prior_family_research:
+  asked: true
+  researchers: []
+  family_pages:
+    - "/Users/name/PycharmProjects/family-tree/family_tree.json"
+  holders_of_materials: []
+  notes: "Семейное древо на 27 персон — основной исходный материал; документы и интервью не предоставлены."
+
+input_materials:
+  - "family_tree.json (27 персон, семейные воспоминания)"
+  - "старый кейс kozirev-family (перенесён в kozirev-line)"
+
+privacy:
+  redact_living_people_in_shared_report: true
+  exclude_current_contacts_and_addresses: true
+  sensitive_topics:
+    - "репрессии/раскулачивание"
+    - "плен"
+    - "смерть от удара током"
+
+known_constraints:
+  - "контакты с архивами и живыми людьми запрещены"
+  - "платные источники запрещены"
+  - "онлайн-поиск ограничен доступными индексами"
+  - "семейное древо не является доказательством; статус family-tree-only"
+
+working_hypotheses:
+  - id: "H1"
+    text: "Иван Федорович Козырев 1903 г.р. из Ждановского района — тот же человек, что погиб 23.07.1943 в 184-й стрелковой дивизии; расхождение с семейной датой 20.07.1943 и селом Мирное требует объяснения."
+  - id: "H2"
+    text: "Запись о военнопленном Козыреве Николае Ивановиче 1925 г.р. (Шталаг VI K 326, лагерный номер 159888) может относиться к Николаю Ивановичу, но без подтверждения адреса/матери — только кандидат."
+  - id: "H3"
+    text: "Семейная версия о раскулачивании Шилова Фёдора Петровича не подтверждается открытым списком; нужен архив Саратовской области или районный список раскулаченных."
+  - id: "H4"
+    text: "Связь Ивана Федоровича с Николаем Ивановичем пока опирается только на семейное древо; нужна метрика/похозяйственная книга/военкоматский документ."
